@@ -1,0 +1,146 @@
+#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  h1 {
+    margin: 0 50px 50px 50px;
+  }
+  p {
+    margin-top: 1.5em;
+  }
+}
+
+
+
+.faire-part {
+  width: 100%;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/faire-part.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.btn-wedding {
+  position: absolute;
+  left: 54%;
+  bottom: 25%;
+  color: white;
+  background-color: #dbac9d;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  font-family: avenir;
+}
+
+
+.btn-wedding:hover {
+   opacity: 0.6;
+   color: white;
+   font-family: avenir;
+}
+
+
+@media screen and (max-width: 450px) {
+
+.btn-wedding {
+  position: absolute;
+  left: 54%;
+  bottom: 30%;
+  color: white;
+  background-color: #dbac9d;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  font-family: avenir;
+  font-size: 10px;
+}
+}
+
+
+@media screen and (max-width: 360px) {
+
+.btn-wedding {
+  position: absolute;
+  left: 54%;
+  bottom: 36%;
+  color: white;
+  background-color: #dbac9d;
+  padding: 2px 14px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  font-family: avenir;
+  font-size: 8px;
+}
+}
+
+
+
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #dbac9d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  opacity: 1;
+}
+
+input[type=submit]:hover {
+  background-color: #dbac9d;
+  opacity: 0,6;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
