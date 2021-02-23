@@ -7,6 +7,8 @@ gem 'middleman-deploy', git: 'https://github.com/lewagon/middleman-deploy.git'
 gem 'pry-byebug', require: true
 gem 'sass'
 gem "nokogiri", ">= 1.10.4"
+gem 'middleman-protect-emails'
+gem 'middleman-minify-html'
 
 # Fix critical github warning
 gem 'actionview', '>= 5.0.7.2'

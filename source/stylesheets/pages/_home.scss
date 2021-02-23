@@ -12,8 +12,52 @@
   }
 }
 
+html {
+  background-color: #fdf6ec;
+}
+
+.logonav {
+  width: 100px;
+}
+
+label {
+    padding: 20px 12px 2px 0;
+    display: inline-block;
+}
+
+.topfix {
+  width: 400px;
+  position:absolute;
+  top:30px;
+  margin: auto;
+  left: 150px;
+  text-align: center;
+  position: center;
+}
+
+.bottomfix {
+  width: 300px;
+  position: fixed;
+  bottom:0;
+  margin: auto;
+  left: 0;
+}
+
+
+.fixedlink {
+  right: 30px;
+  position: fixed;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  position: relative;
+}
+
+
 body {
-  background-color: #FDF6EC;
+  background-color: #fdf6ec;
 }
 
 .faire-part {
@@ -24,68 +68,9 @@ body {
   background-image: url('../images/faire-part.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-background-position: center;
+  background-position: center;
 }
 
-
-.btn-wedding {
-  position: absolute;
-  left: 54%;
-  bottom: 25%;
-  color: white;
-  background-color: #dbac9d;
-  padding: 8px 24px;
-  border-radius: 50px;
-  font-weight: lighter;
-  opacity: 1;
-  transition: opacity 0.3s ease;
-  font-family: avenir;
-}
-
-
-.btn-wedding:hover {
-   opacity: 0.6;
-   color: white;
-   font-family: avenir;
-}
-
-
-@media screen and (max-width: 450px) {
-
-.btn-wedding {
-  position: absolute;
-  left: 54%;
-  bottom: 30%;
-  color: white;
-  background-color: #dbac9d;
-  padding: 8px 24px;
-  border-radius: 50px;
-  font-weight: lighter;
-  opacity: 1;
-  transition: opacity 0.3s ease;
-  font-family: avenir;
-  font-size: 10px;
-}
-}
-
-
-@media screen and (max-width: 360px) {
-
-.btn-wedding {
-  position: absolute;
-  left: 54%;
-  bottom: 36%;
-  color: white;
-  background-color: #dbac9d;
-  padding: 2px 14px;
-  border-radius: 50px;
-  font-weight: lighter;
-  opacity: 1;
-  transition: opacity 0.3s ease;
-  font-family: avenir;
-  font-size: 8px;
-}
-}
 
 
 
@@ -98,10 +83,7 @@ input, select, textarea {
   resize: vertical;
 }
 
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
+
 
 input[type=submit] {
   background-color: #dbac9d;
@@ -146,3 +128,40 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+@media screen and (min-device-width: 1300px) {
+  .showmobile {
+    display: none;
+  }
+  .maintext {
+  text-align: center;
+  margin-top: 250px;
+}
+}
+
+@media screen and (max-device-width: 1300px) {
+  .hidemobile {
+    display: none;
+  }
+  .maintext {
+  text-align: center;
+  margin-top: 50px;
+}
+}
+
+@media (min-width: 1300px) {
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+}
+}
+
+input, select, textarea, option {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: white;
+}
+

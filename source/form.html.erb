@@ -1,15 +1,32 @@
 ---
-title: Middleman - About
+title: Programme de la journée
 ---
-
-<br>
-<br>
+<%= image_tag "images/calque2.png", class: "topfix hidemobile" %>
+<%= image_tag "images/calque3.png", class: "bottomfix hidemobile" %>
 
 <div class="container">
+
+<div class="fixedlink hidemobile">
+  <%= link_to 'Accueil', 'index.html', class: 'btn' %>
+  <br>
+  <br>
+  <%= link_to 'Programme de la journée', 'programme.html', class: 'btn' %>
+  <br>
+  <br>
+
+  <%= link_to 'Informations pratiques', 'informations.html', class: 'btn' %>
+  <br>
+  <br>
+  <%= link_to 'Répondre ici', 'form.html', class: 'btn' %>
+
+</div>
+<div class="maintext">
+  <h1>Formulaire</h1>
+</div>
   <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/mnqoybed" method="post">
     <fieldset id="fs-frm-inputs">
       <label for="full-name">Nom</label>
-      <input type="text" name="name" id="full-name" placeholder="Nom(s) et prénom(s)" required="">
+      <input type="text" name="Nom" id="full-name" placeholder="Nom(s) et prénom(s)" required="">
       <label for="email-address">Adresse email</label>
       <input type="email" name="Adresse email" id="email-address" placeholder="julia@tonio.babe" required="">
       <label for="phone-number">Téléphone</label>
@@ -38,6 +55,7 @@ title: Middleman - About
       <textarea rows="3" name="Commentaires" id="message" placeholder="" ></textarea>
       <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
     </fieldset>
+    <br>
     <input type="submit" value="Envoyer">
     <br>
 <br>
