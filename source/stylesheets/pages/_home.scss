@@ -86,19 +86,20 @@ input, select, textarea {
 
 
 input[type=submit] {
-  background-color: #dbac9d;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
   opacity: 1;
+  transition: opacity 0.3s ease;
+  background-color: #fdf6ec;
 }
 
 input[type=submit]:hover {
-  background-color: #dbac9d;
-  opacity: 0,6;
+  opacity: 1;
+  background-color: #4A4A4A;
+  color: #fdf6ec;
 }
 
 
