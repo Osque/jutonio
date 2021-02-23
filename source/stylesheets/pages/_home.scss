@@ -122,14 +122,14 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
 
-@media screen and (min-device-width: 1400px) {
+@media screen and (min-device-width: 1200px) {
   .showmobile {
     display: none;
   }
@@ -139,7 +139,7 @@ input[type=submit]:hover {
 }
 }
 
-@media screen and (max-device-width: 1400px) {
+@media screen and (max-device-width: 1200px) {
   .hidemobile {
     display: none;
   }
@@ -149,7 +149,7 @@ input[type=submit]:hover {
 }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
