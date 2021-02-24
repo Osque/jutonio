@@ -12,6 +12,10 @@
   }
 }
 
+h1, h2, h3, h4, h5, p {
+  color: #35342F;
+}
+
 html {
   background-color: #fdf6ec;
 }
@@ -58,7 +62,7 @@ label {
   right: 40px;
   position: fixed;
   text-align: center;
-  color: black;
+  color: #35342F;
   top: 35vh;
 }
 
@@ -98,8 +102,9 @@ input, select, textarea {
 
 
 input[type=submit] {
-  color: black;
-  border: 1px solid black;
+
+  border: 1px solid #35342F;
+  ;
   padding: 8px 24px;
   border-radius: 50px;
   font-weight: lighter;
@@ -110,7 +115,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
   opacity: 1;
-  background-color: #4A4A4A;
+  background-color: #35342F;
+  ;
   color: #fdf6ec;
 }
 
@@ -150,6 +156,14 @@ input[type=submit]:hover {
     text-align: center;
     margin-top: 200px;
   }
+  .circle {
+    background-color: #F8D7CA;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 35%;
+  }
 }
 
 @media screen and (max-device-width: 1200px) {
@@ -158,23 +172,25 @@ input[type=submit]:hover {
   }
   .maintext {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .circle {
-  background-color: #F8D7CA;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: auto;
-}
+    background-color: #F8D7CA;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 35%;
+  }
 
-.ptext {
-  font-size: 25px;
-  display: table-cell;
-  width: 250px;
-  height: 200px;
-  vertical-align: middle;
-}
+  .ptext {
+    font-size: 25px;
+    display: table-cell;
+    width: 250px;
+    height: 200px;
+    vertical-align: middle;
+    color: #35342F;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -200,6 +216,7 @@ input, select, textarea, option {
   height: 300px;
   border-radius: 50%;
   margin: auto;
+  margin-top: 35%;
 }
 
 .ptext {
