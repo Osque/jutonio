@@ -1,6 +1,6 @@
 {
-    "name": "J&A",
-    "short_name": "J&A",
+    "name": "Julia & Antoine",
+    "short_name": "Julia & Antoine",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#fdf6ec",
+    "background_color": "#fdf6ec",
     "display": "standalone"
 }

@@ -1,28 +1,30 @@
 ---
-title: Programme de la journée
+title: Confirmez votre présence - Mariage Julia & Antoine
 ---
 <%= image_tag "images/calque2.png", class: "topfix hidemobile" %>
 <%= image_tag "images/calque3.png", class: "bottomfix hidemobile" %>
 
 <div class="container">
 
-<div class="fixedlink hidemobile">
-  <%= link_to 'Accueil', 'index.html', class: 'btn' %>
-  <br>
-  <br>
-  <%= link_to 'Programme de la journée', 'programme.html', class: 'btn' %>
-  <br>
-  <br>
 
-  <%= link_to 'Informations pratiques', 'informations.html', class: 'btn' %>
-  <br>
-  <br>
-  <%= link_to 'Répondre ici', 'form.html', class: 'btn' %>
+  <div class="fixedlink hidemobile">
+    <%= link_to 'Accueil', 'index', class: 'btn' %>
+    <br>
+    <br>
+    <%= link_to 'Programme de la journée', 'programme', class: 'btn' %>
+    <br>
+    <br>
 
-</div>
-<div class="maintext">
-  <h1>Formulaire</h1>
-</div>
+    <%= link_to 'Informations pratiques', 'informations', class: 'btn' %>
+    <br>
+    <br>
+    <%= link_to 'Confirmez votre présence', 'form', class: 'tab btn' %>
+
+  </div>
+
+  <div class="maintext">
+    <h1>Formulaire</h1>
+  </div>
   <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/mnqoybed" method="post">
     <fieldset id="fs-frm-inputs">
       <label for="full-name">Nom</label>
@@ -44,7 +46,7 @@ title: Programme de la journée
           <option value="Oui">Oui</option>
           <option value="Non">Non</option>
         </select>
-          <label for="timely">Serez-vous là pour le brunch le lendemain ?</label>
+        <label for="timely">Serez-vous là pour le brunch le lendemain ?</label>
         <select name="Serez-vous là pour le brunch" id="quality" required="">
           <option value="" selected="" disabled=""></option>
           <option value="Oui">Oui</option>
@@ -58,10 +60,10 @@ title: Programme de la journée
     <br>
     <input type="submit" value="Envoyer">
     <br>
-<br>
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
+    <br>
   </form>
 </div>
 
